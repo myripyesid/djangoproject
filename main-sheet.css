@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+}
+
+p{
+    color: white;
+}
+h1{
+    color: white;
+
+}
+
+h2{
+    color: white;
+}
+
+button{
+    font-family: monospace;
+    background-color: rgb(100, 49, 115);
+    color: white;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: rgb(125, 91, 166);
+    cursor: pointer;
+    transform: scale(1.1); /* Agranda el botón un 10% */
+    
+}
+
+#upper-to-bottom{
+    margin-top: 10%;
+    margin-bottom: 5em;
+    margin-left: 3%;
+}
+
+#habilidades { 
+    position: relative; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    margin: 10px;
+    text-align: left; 
+} 
+.habilidad { 
+    margin-bottom: 15px; 
+    position: relative; 
+} 
+.habilidad span { 
+    display: block; 
+    margin-bottom: 10px;
+    margin-top: 40px; 
+    font-weight: bold; 
+    font-size: 14px; } 
+.barra-progreso { 
+    position: absolute; 
+    left: 3%; 
+    width: 80%; 
+    background-color: #e0e0e0; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    height: 15px;
+} 
+.progreso { 
+    height: 100%; 
+    background-color: #3498db; 
+    border-radius: 15px; 
+    transition: width 1s ease-in-out; 
+
+}
+
+.habilidad-texto{
+    color: white;
+}
