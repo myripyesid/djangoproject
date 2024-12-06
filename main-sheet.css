@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(118, 206, 212);
     font-family: Helvetica, sans-serif;
 }
 
@@ -33,6 +33,19 @@ button:hover{
     transform: scale(1.1); /* Agranda el botón un 10% */
     
 }
+label {
+    font-family: Helvetica, sans-serif; /* Cambia la familia de fuentes */
+    font-size: 16px; /* Cambia el tamaño de la fuente */
+    color: white; /* Cambia el color del texto */
+    font-weight: bold; /* Cambia el grosor del texto */
+    margin-bottom: 5px; /* Añade espacio debajo de las etiquetas */
+    margin-top: 5px;
+    display: block; /* Asegura que las etiquetas estén en una nueva línea */
+}
+
+input{
+    margin-bottom: 10px;
+}
 
 #upper-to-bottom{
     margin-top: 10%;
@@ -41,7 +54,8 @@ button:hover{
 }
 
 #habilidades { 
-    position: relative; 
+    position: relative;
+    width: 45%; 
     max-width: 400px; 
     margin: 0 auto; 
     padding: 20px; 
@@ -61,7 +75,7 @@ button:hover{
 .barra-progreso { 
     position: absolute; 
     left: 3%; 
-    width: 80%; 
+    width: 100%; 
     background-color: #e0e0e0; 
     border-radius: 15px; 
     overflow: hidden; 
@@ -77,4 +91,62 @@ button:hover{
 
 .habilidad-texto{
     color: white;
+}
+
+.formulario{
+    margin-top: 10%;
+    margin-left: 3em;
+    
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 45%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+
+}
+.formulario-contacto button{
+    margin-top: auto;
+}
+
+.formulario-contacto label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-contacto button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario-contacto button:hover {
+    background-color: #2c3e50;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
 }

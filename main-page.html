@@ -8,27 +8,49 @@
 </head>
 <body>
     <p id="id">By Yesid Rivera</p>
-    
-    <section id="habilidades">
-        <h2><i>Habilidades</i></h2>
-        <div class="habilidad">
-            <span class="habilidad-texto">HTML</span>
-            <div class="barra-progreso">
-                <div class="progreso" style="width: 90%;"></div>
+    <div class="container">  
+        <section id="habilidades">
+            <h2><i>Habilidades</i></h2>
+            <div class="habilidad">
+                <span class="habilidad-texto">HTML</span>
+                <div class="barra-progreso">
+                    <div class="progreso" style="width: 70%;"></div>
+                </div>
             </div>
-        </div>
-        <div class="habilidad">
-            <span class="habilidad-texto">CSS</span>
-            <div class="barra-progreso">
-                <div class="progreso" style="width: 80%;"></div>
+            <div class="habilidad">
+                <span class="habilidad-texto">CSS</span>
+                <div class="barra-progreso">
+                    <div class="progreso" style="width: 50%;"></div>
+                </div>
             </div>
-        </div>
-        <!-- Agrega más habilidades según sea necesario -->
-    </section>
-    
+            <div class="habilidad">
+                <span class="habilidad-texto">PROOF WRITTING</span>
+                <div class="barra-progreso">
+                    <div class="progreso" style="width: 80%"></div>
+                </div>
+            </div>
+
+            <!-- Agrega más habilidades según sea necesario -->
+        </section>
+        
+        <section class="formulario">
+            <form id="formulario-contacto">
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje: </label>
+                <input type="text" id="mensaje" name="mensaje" required>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
     <div id="upper-to-bottom">
     <h1>¡Bienvenido! ¿Interesado en algo?</h1>
-    <button class="hyperboton">Ver CV</button>
+    <a href="./index1.html" target="_blank"><button class="hyperboton">Ver CV</button></a>
     <button class="hyperboton">Ver futuros proyectos</button>
     <button class="hyperboton">Portafolio de Github</button>
     
